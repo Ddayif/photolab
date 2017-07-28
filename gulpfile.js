@@ -30,4 +30,8 @@ gulp.task('webserver', function(){
 	}));
 });
 
-gulp.task('default', ['script', 'style', 'webserver']);
+gulp.task('watch', function() {
+    gulp.watch('assets/sass/*.scss', ['style']);
+});
+
+gulp.task('default', ['script', 'style', 'webserver', 'watch']);

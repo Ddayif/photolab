@@ -5,60 +5,92 @@
 
 
 header{
-	position: fixed;
-	width: 100%;
-	height: 82px;
-	z-index: 1;
-	color: whitesmoke;
-}
-
-nav{
-	background-color: transparent;
-		ul{
-			position: absolute;
-			top: 0;
-			margin: 0;
-			padding: 0;
-		}	
-}
-
-
-.img-principal{
+	color: $color_primario;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 100%;
+	background-image: url(../img/bg1.jpg);
+	height: 100vh;
+		nav{
+			background-color: transparent;
+		}
 }
+
+
 
 .mi-btn{
 	background-color: rgb(19, 161, 137);
-	color: whitesmoke;
+	color: $color_primario;
 	height: 2%;
 }
 
 /*seccion 2*/
 
 .contenedor-dos{
-	background-color: rgb(245, 246, 248);
+	background-image: url(../img/hand.png);
+	width:100%;
+    height:456px;
+    background-position: center;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	background-position-y: 50px;
+   	background-position-x: 464px;
+   	background-size: inherit;
+   		h6{
+   			color: $color_h6;
+   			font-weight: 700;
+   		}
+   		p{
+   			color: $color_p;
+   		}
+	
 }
 
 /*seccion 3*/
 
 .contenedor-tres{
 	background-color: white;
+		h6{
+   			color: $color_h6;
+   			font-weight: 700;
+   		}
+   		p{
+   			color: $color_p;
+   		}
 }
 
 /*seccion-4*/
 
 .contenedor-cuatro{
-	background-color: whitesmoke;
+	background-color: $color_primario;
+}
+
+
+/*seccion 5*/
+
+.contenedor-bg2{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	background-image: url(../img/bg2.jpg);
+	height: 100vh;
 }
 
 /*seccion 6*/
 
 .contenedor-seis{
-	background-color: whitesmoke;
+	background-color: $color_primario;
+		h6{
+   			color: $color_h6;
+   			font-weight: 700;
+   		}
+   		p{
+   			color: $color_p;
+   		}
 }
+
 
 /*footer*/
 .contenedor-footer{
